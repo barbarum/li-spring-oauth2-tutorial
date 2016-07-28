@@ -1,0 +1,21 @@
+linkedin:
+  client_partner_tutorial:
+    clientId: 75d71ydzkj9ayo
+    clientSecret: wmxxZpN1QcpqyJf2
+    userAuthorizationUri: https://www.linkedin.com/uas/oauth2/authorization
+    accessTokenUri: https://www.linkedin.com/uas/oauth2/accessToken
+    scope: r_basicprofile
+    tokenName: access_token
+    authenticationScheme: header
+    clientAuthenticationScheme: form
+  client_hywel_lo:
+      clientId: 75e90qj4xwg75t
+      clientSecret: 0PjZ0RLF4E8drOvv
+      userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization
+      accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
+      scope:
+      tokenName: access_token
+      authenticationScheme: header
+      clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://api.linkedin.com/v1/people/~:(email_address)?format=json
