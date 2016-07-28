@@ -60,7 +60,7 @@ public class OAuth2Application extends WebSecurityConfigurerAdapter {
   }
 
   @Bean
-  @ConfigurationProperties("linkedin.client_partner_tutorial")
+  @ConfigurationProperties("linkedin.client")
   OAuth2ProtectedResourceDetails linkedin() {
     return new AuthorizationCodeResourceDetails();
   }
