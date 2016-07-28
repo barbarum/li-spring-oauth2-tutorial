@@ -14,7 +14,7 @@ Please check if you have Java and Maven configured properly on your workstation.
 
 Step 1: Clone codes into your workstation
 --------
-<```
+```
   git clone https://github.com/barbarum/li-spring-oauth2-tutorial.git
 ```
 
